@@ -1,25 +1,30 @@
-function mima(x, min, max) {
-  x = parse(x, 'x')
-  min = parse(min, 'min', x)
-  max = parse(max, 'max', x)
+function mima(min, x, max) {
+  x = parse(x, 'x', true)
+  min = parse(min, 'min')
+  max = parse(max, 'max')
 
-  if (max < min) {
-    throw new TypeError('max is bigger than min')
+  if (!(min === null || max === null) && min > max) {
+    throw new TypeError('min is bigger than max')
   }
 
-  x = Math.max(x, min)
-  x = Math.min(x, max)
+  if (min !== null) {
+    x = Math.max(x, min)
+  }
+
+  if (max !== null) {
+    x = Math.min(x, max)
+  }
 
   return x
 }
 
-function parse(value, name, defaultValue) {
-  if (defaultValue !== undefined && (value === null || value === undefined)) {
-    return defaultValue
+function parse(value, name, required) {
+  if (!required && (value === null || value === undefined)) {
+    return null
   }
 
   if (isNaN(value)) {
-    throw new TypeError(`${name} must be a number`)
+    throw new TypeError(`${name} must be a number` + !required && ' or null/undefined')
   }
 
   return +value
