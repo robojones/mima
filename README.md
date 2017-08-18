@@ -7,10 +7,14 @@
 ## Install
 
 ```bash
-npm i mima
+npm i mima --save
 ```
 
 ## mima(min, x, max)
+
+- __min__ `<number|null|undefined>`
+- __x__ `<number>`
+- __max__ `<number|null|undefined>`
 
 If `x` is smaller than `min` then `min` is returned.
 If `x` is between `min` and `max` then `x` is returned.
