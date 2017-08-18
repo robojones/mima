@@ -1,0 +1,37 @@
+{
+  "name": "mima",
+  "version": "0.0.1",
+  "description": "Make sure a number is betwenn min and max",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha",
+    "lint": "node_modules/eslint/bin/eslint.js ."
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robojones/mima.git"
+  },
+  "keywords": [
+    "between",
+    "number",
+    "min",
+    "max",
+    "minimum",
+    "maximum"
+  ],
+  "author": "robojones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robojones/mima/issues"
+  },
+  "homepage": "https://github.com/robojones/mima#readme",
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-ultra": "^0.4.5",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.0"
+  }
+}
