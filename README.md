@@ -13,7 +13,7 @@ npm i mima
 ## mima(min, x, max)
 
 If `x` is smaller than `min` then `min` is returned.
-If `x` is between `min` and `max` then `x` is returned
+If `x` is between `min` and `max` then `x` is returned.
 If `x` is bigger than `max` then `max` is returned.
 
 ## Example
