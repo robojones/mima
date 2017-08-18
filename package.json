@@ -1,7 +1,7 @@
 {
   "name": "mima",
   "version": "0.0.1",
-  "description": "Make sure a number is betwenn min and max",
+  "description": "Make sure that a number is between min and max",
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover _mocha",

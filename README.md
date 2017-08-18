@@ -1,5 +1,4 @@
-# mima
-Make sure a number is betwenn min and max
+# mima - make sure that a number is between min and max
 
 [![Build Status](https://travis-ci.org/robojones/mima.svg?branch=master)](https://travis-ci.org/robojones/mima)
 [![Test Coverage](https://codeclimate.com/github/robojones/mima/badges/coverage.svg)](https://codeclimate.com/github/robojones/mima/coverage)
