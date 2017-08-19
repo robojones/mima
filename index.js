@@ -1,8 +1,8 @@
 /**
- * Returns value between min and max
- * @param {?number} min - mimimum value 
- * @param {number} x 
- * @param {?number} [max] - maximum value
+ * Returns a value between min and max.
+ * @param {?number} min - The mimimum value. 
+ * @param {number} x - This value gets returned if it is between the min an max.
+ * @param {?number} [max] - The maximum value.
  * @returns {number}
  */
 function mima(min, x, max) {
@@ -26,10 +26,10 @@ function mima(min, x, max) {
 }
 
 /**
- * parse the value
+ * Parses the value.
  * @param {*} value
- * @param {string} name - name of the variable
- * @param {boolean} [required] - is not null or undefined
+ * @param {string} name - The name of the variable.
+ * @param {boolean} [required] - It can not be null or undefined.
  * @returns {?number}
  */
 function parse(value, name, required) {
