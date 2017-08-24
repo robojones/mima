@@ -1,7 +1,7 @@
 const assert = require('assert')
 
 describe('mima', function () {
-  const mima = require('.')
+  const mima = require('..')
 
   it('should round values bigger than max to max', function () {
     assert.strictEqual(mima(-1, 2, 1), 1)
