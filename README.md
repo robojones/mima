@@ -3,7 +3,12 @@ Make sure that a number is between min and max
 
 [![Build Status](https://travis-ci.org/robojones/mima.svg?branch=master)](https://travis-ci.org/robojones/mima)
 [![Test Coverage](https://codeclimate.com/github/robojones/mima/badges/coverage.svg)](https://codeclimate.com/github/robojones/mima/coverage)
-[![Issue Count](https://codeclimate.com/github/robojones/mima/badges/issue_count.svg)](https://codeclimate.com/github/robojones/mima)
+
+[![bitHound Code](https://www.bithound.io/github/robojones/mima/badges/code.svg)](https://www.bithound.io/github/robojones/mima)
+[![bitHound Overall Score](https://www.bithound.io/github/robojones/mima/badges/score.svg)](https://www.bithound.io/github/robojones/mima)
+[![bitHound Dependencies](https://www.bithound.io/github/robojones/mima/badges/dependencies.svg)](https://www.bithound.io/github/robojones/mima/master/dependencies/npm)
+[![bitHound Dev Dependencies](https://www.bithound.io/github/robojones/mima/badges/devDependencies.svg)](https://www.bithound.io/github/robojones/mima/master/dependencies/npm)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Install
 
